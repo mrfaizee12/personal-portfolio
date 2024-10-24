@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='hide-on-small'></div>
         <div className='large-text'>
           <div>
-            <p>I'm</p>
+            <p>I&#39;m</p>
             <p>Faizan</p>
             <p>Anjum</p>
           </div>

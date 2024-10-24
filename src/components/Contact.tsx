@@ -7,22 +7,22 @@ const Contact = () => {
     <div id="contact" className="contact-container">
       <div className="contact-grid">
         <div className="space-y-8">
-          <h2 className="contact-title" data-aos="zoom-in-up">
+          <h2 className="contact-title">
             Get in touch
           </h2>
-          <p className="contact-description" data-aos="zoom-in-up">
+          <p className="contact-description">
             Drop me an email, give me a call, or send me a message by submitting
             the form.
           </p>
-          <div className="contact-info" data-aos="zoom-in-up">
+          <div className="contact-info">
             <MdOutlineMail /> faizee956@gmail.com
           </div>
-          <div className="contact-info" data-aos="zoom-in-up">
+          <div className="contact-info">
             <BsTelephone /> +923112221305
           </div>
         </div>
         <div className="space-y-8">
-          <div className="contact-input" data-aos="zoom-in-up">
+          <div className="contact-input">
             <label htmlFor="name">Name</label>
             <input
               type="text"
@@ -30,7 +30,7 @@ const Contact = () => {
               id="name"
             />
           </div>
-          <div className="contact-input" data-aos="zoom-in-up">
+          <div className="contact-input" >
             <label htmlFor="email">Email</label>
             <input
               type="text"
@@ -38,7 +38,7 @@ const Contact = () => {
               id="email"
             />
           </div>
-          <div className="contact-input" data-aos="zoom-in-up">
+          <div className="contact-input">
             <label htmlFor="message">Message</label>
             <textarea
               className="contact-input-field"
@@ -46,7 +46,7 @@ const Contact = () => {
               rows={8}
             ></textarea>
           </div>
-          <button className="contact-button" data-aos="zoom-in-up">
+          <button className="contact-button">
             Send
           </button>
         </div>

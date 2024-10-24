@@ -9,7 +9,6 @@ const data = [
     desc: "A Next.js and TypeScript powered website to track time with an interactive countdown feature.",
     img: "/mypro1.PNG",
     tags: ["NextJS", "Node", "CSS", "Typescript"],
-    url: "https://countdown-timer-nextjs-ten.vercel.app/"
   },
   {
     id: 1,
@@ -31,7 +30,6 @@ const data = [
     desc: "A TypeScript-based interactive resume built with HTML and CSS, allowing users to showcase their skills dynamically.",
     img: "/mypro3.png",
     tags: ["HTML", "Node", "CSS", "Typescript"],
-    url:"https://milestone01-2.vercel.app/",
   },
   {
     id: 4,
@@ -47,7 +45,6 @@ const data = [
     img: "/mypro.png",
     tags: ["HTML", "Node", "CSS", "Typescript"],
   },
-  // Add more project data here...
 ];
 
 const Projects = () => {
