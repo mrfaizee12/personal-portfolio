@@ -3,39 +3,108 @@ body {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.829);
 }
+
 /* Hero Section */
 #hero {
   min-height: 100vh;
   background-repeat: no-repeat;
-  background-image: url('/profile.jpg');
   background-size: 35%;
   background-position: left 100px top 100px;
 }
 
-.hero-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* lg:grid-cols-2 equivalent */
-  height: calc(100vh - 60px);
-}
-
-@media (max-width: 1024px) {
-  .hide-on-small {
-    display: none;
+@media (min-width: 768px) {
+  #hero {
+    background-image: url('/profile.jpg');
   }
 }
 
-.large-text {
-  font-size: 90px;
-  font-weight: bold;
-  line-height: 1.1;
+.hero-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  height: calc(100vh - 70px);
+  margin-left: 170px;
+  padding-left: 170px;
 }
 
-@media (min-width: 640px) {
+/* Large Text Styling */
+.large-text {
+  font-size: 4rem; /* Desktop font size */
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  color: goldenrod;
+}
+
+/* Typewriter Effect */
+.typewriter-text {
+  font-size: 1.5rem; /* Increased font size for better visibility */
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+/* Button Group */
+.button-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hire-me {
+  background-color: #0073e6; /* Blue background */
+}
+
+.view-cv {
+  background-color: #e91e63; /* Pink background */
+}
+
+.hire-me:hover {
+  background-color: #005bb5;
+}
+
+.view-cv:hover {
+  background-color: #c2185b;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #hero {
+    background-image: none;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
   .large-text {
-    font-size: 80px;
+    font-size: 2.5rem; /* Reduced font size for smaller screens */
+    text-align: center;
+  }
+
+  .typewriter-text {
+    font-size: 1.25rem; /* Adjust font size for mobile */
+    text-align: center;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .btn {
+    width: 100%;
   }
 }
 
