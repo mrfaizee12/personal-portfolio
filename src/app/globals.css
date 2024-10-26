@@ -14,7 +14,7 @@ body {
 
 @media (min-width: 768px) {
   #hero {
-    background-image: url('/profile.jpg');
+    background-image: url("/profile.png");
   }
 }
 
@@ -108,9 +108,6 @@ body {
   }
 }
 
-
-
-
 /* Navbar Container */
 .navbar-container {
   padding-top: 2rem; /* pt-8 */
@@ -200,7 +197,6 @@ body {
   }
 }
 
-
 /* About section styles with black background */
 .about-container {
   display: flex;
@@ -220,7 +216,7 @@ body {
 
 /* Increase image size and make it rectangular */
 .about-image img {
-  width: 400px;  /* Adjusted width for rectangular shape */
+  width: 400px; /* Adjusted width for rectangular shape */
   height: 300px; /* Adjusted height for rectangular shape */
   object-fit: cover;
   margin-right: 20px; /* Spacing between image and text */
@@ -243,7 +239,6 @@ body {
   font-size: 1.2rem;
   color: white; /* Keep text white */
 }
-
 
 /* Mobile styles (min-width: 300px and max-width: 700px) */
 @media (max-width: 700px) {
