@@ -94,7 +94,7 @@ body {
   }
 
   .typewriter-text {
-    font-size: 1.25rem; /* Adjust font size for mobile */
+    font-size: 2rem; /* Adjust font size for mobile */
     text-align: center;
   }
 
@@ -405,19 +405,19 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* grid-cols-2 */
   gap: 2rem;
-  font-size: 1.25rem; /* Reduced size for mobile */
+  font-size: 1.20rem; /* Reduced size for mobile */
   color: #ff79c6; /* text-accent */
 }
 
 @media (min-width: 640px) {
   .skills-list {
-    font-size: 1.5rem; /* Slightly larger for tablets */
+    font-size: 1.4rem; /* Slightly larger for tablets */
   }
 }
 
 @media (min-width: 1024px) {
   .skills-list {
-    font-size: 2rem; /* Optimized size for desktops */
+    font-size: 1.50rem; /* Optimized size for desktops */
   }
 }
 
