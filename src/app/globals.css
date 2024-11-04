@@ -1,7 +1,10 @@
 /* Body */
 body {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.829);
+  background-color:black;
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default paddings */
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 /* Hero Section */
@@ -500,6 +503,13 @@ body {
   resize: none;
 }
 
+/* Button container to center the Send button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem; /* Adjust as needed for extra spacing */
+}
+
 /* Contact button */
 .contact-button {
   background-color: #ff79c6; /* bg-accent */
@@ -513,6 +523,14 @@ body {
 
 .contact-button:hover {
   background-color: #e67ad6; /* Slight hover effect */
+}
+
+/* Success message */
+.success-message {
+  text-align: center;
+  color: #00ff00; /* Green color for success */
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
 /* Footer container */
