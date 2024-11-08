@@ -34,7 +34,7 @@ const Hero = () => {
               <Link href="#contact" passHref>
                 <button className="btn hire-me">Hire Me</button>
               </Link>
-              <Link href="https://milestone01-2.vercel.app/" passHref>
+              <Link href="https://hackathon-milestones01-02-by-faizee.vercel.app/" passHref>
                 <button className="btn view-cv">View CV</button>
               </Link>
             </div>
