@@ -223,7 +223,7 @@ body {
   height: 300px; /* Adjusted height for rectangular shape */
   object-fit: cover;
   margin-right: 20px; /* Spacing between image and text */
-  border-radius: 10px; /* Slight rounded corners */
+  border-radius: 20px 50px; /* Slight rounded corners */
   border: 5px solid rgba(255, 255, 255, 0.1); /* White border */
 }
 
